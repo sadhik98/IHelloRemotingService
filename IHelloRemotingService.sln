@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IHelloRemotingService", "IHelloRemotingService\IHelloRemotingService.csproj", "{D026FFE7-D906-4219-83F7-44CCA9709988}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloRemotingService", "HelloRemotingService\HelloRemotingService.csproj", "{95073E5D-BD11-4EA0-96F0-1C4AEE7FE253}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{472111B5-E602-4AD5-A4CA-28DA96D24263}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemotingServiceHost", "RemotingServiceHost\RemotingServiceHost.csproj", "{E13E6D6C-3BB7-4103-B531-3C920A1FB7DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloRemotingServiceClient", "HelloRemotingServiceClient\HelloRemotingServiceClient.csproj", "{E40B86FB-C2B4-499E-BA2D-F44A41969E68}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D026FFE7-D906-4219-83F7-44CCA9709988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D026FFE7-D906-4219-83F7-44CCA9709988}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D026FFE7-D906-4219-83F7-44CCA9709988}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D026FFE7-D906-4219-83F7-44CCA9709988}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95073E5D-BD11-4EA0-96F0-1C4AEE7FE253}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95073E5D-BD11-4EA0-96F0-1C4AEE7FE253}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95073E5D-BD11-4EA0-96F0-1C4AEE7FE253}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95073E5D-BD11-4EA0-96F0-1C4AEE7FE253}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E13E6D6C-3BB7-4103-B531-3C920A1FB7DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E13E6D6C-3BB7-4103-B531-3C920A1FB7DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E13E6D6C-3BB7-4103-B531-3C920A1FB7DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E13E6D6C-3BB7-4103-B531-3C920A1FB7DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E40B86FB-C2B4-499E-BA2D-F44A41969E68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E40B86FB-C2B4-499E-BA2D-F44A41969E68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E40B86FB-C2B4-499E-BA2D-F44A41969E68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E40B86FB-C2B4-499E-BA2D-F44A41969E68}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D2C23686-A372-42D4-A686-2EB3103CF9AA}
+	EndGlobalSection
+EndGlobal
